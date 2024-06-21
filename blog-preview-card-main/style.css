@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+.card{
+    border: black solid;
+    width: 23rem;
+    height: 27rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    margin: 15% 25%;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 15px 15px 0px black;
+}
+.cardImg{
+    background-color: hsl(0, 0%, 100%);
+}
+.cardImg #cover-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    object-fit: cover;
+    background-color: hsl(0, 0%, 100%);
+}
+.cardInfo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 12px;
+}
+#tag{
+
+    border: none;
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 2px;
+    font-weight: 800;
+}
+
+.cardInfo #date{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.cardInfo #title{
+    background-color: white;
+    color: hsl(47, 88%, 63%);
+    font-weight: 800;
+}
+
+.cardInfo #content-text{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 50%);
+}
+
+.profile{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 56%;
+    width: 41%;
+    gap: 10px;
+    border: none;
+}
+
+.profile #profile-pic{
+    background-color: hsl(0, 0%, 100%);
+    width: 2.5rem;
+}
+
+.profile #profile-name{
+    background-color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
